@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.Intro{
+  font-size: 100px;
+  color: #0a002c;
+  text-align: left;
+  position: relative;
+  top: -30px;
+  left: -480px;
+}
+
+.Intro2{
+  font-size: 150px;
+  color: #0a002c;
+  position: relative;
+  top: -180px;
+  left: -380px;
+}
+
+.gradient{
+  background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
+  height: 100vh;
+  width: 100vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +37,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
