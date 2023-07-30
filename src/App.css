@@ -7,27 +7,132 @@
   pointer-events: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+.photo{
+  position: relative;
+  top: 150px;
+  left: -90px;
+}
+
+.link{
+  position: relative;
+  right: -15px;
+  font-size: 16px;
+  font-weight:lighter;
+  border: 2px #fbfbfb;
+  border-radius: 100px;
+  border-style: double;
+  padding: 7px;
+}
+
 .Intro{
   font-size: 100px;
   color: #0a002c;
   text-align: left;
+  font-weight: lighter;
   position: relative;
-  top: -30px;
-  left: -480px;
+  top: -450px;
+  left: -380px;
 }
 
 .Intro2{
   font-size: 150px;
   color: #0a002c;
   position: relative;
-  top: -180px;
+  top: -500px;
   left: -380px;
 }
 
-.gradient{
-  background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
-  height: 100vh;
-  width: 100vh;
+.Sides{
+  color:#0a002c;
+  text-align: right;
+  position: relative;
+  top: 30px;
+  right: -400px;
+}
+
+.circle1{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: #8e41d2;
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  left: -80px;
+}
+
+.circle2{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: #e33c4d;
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  left: -30px;
+}
+
+.circle3{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: #f6b336;
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  right: -30px;
+}
+
+.circle4{
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: #3524d3;
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  right: -80px;
+}
+
+
+.About{
+  color:#e467a1;
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  position: inherit;
+  top: 80px;
+}
+
+.Projects{
+  color:#f7bd87;
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  position: inherit;
+  top: 80px;
+}
+
+.Work{
+  color:#9431cd;
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  position: inherit;
+  top: 80px;
+}
+
+.Extra{
+  color:#e46776;
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  position: inherit;
+  top: 80px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
