@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -7,132 +8,237 @@
   pointer-events: none;
 }
 
+.nav{
+  position:fixed;
+  top:0px;
+  background-color: #a161fb49;
+  width: 100%;
+  height: 4vw;
+}
+
+.homeButton{
+  width: 4vw;
+  height: 4vw;
+  position: absolute;
+  top: 0vw;
+  left: 2vw;
+}
+
+.hbText{
+  visibility: hidden;
+  font-size: 2vw;
+  font-weight: lighter;
+  position: absolute;
+  top: -1.5vw;
+  left: 7vw;
+}
+
+
+.hb:hover .hbText{
+  visibility: visible;
+}
+
+.contactDrop{
+  display: inline-block;
+  position:absolute;
+  top: -1.5vw;
+  right: 5vw;
+}
+
+.contact{
+  font-size: 1.5vw;
+  font-weight: lighter;
+  font-variant: small-caps;
+  border: 2px #fbfbfb;
+  background-color: #6c2ea6;
+  border-style: solid;
+  padding-inline: 2vw;
+  
+}
+
+.contact:hover{
+  background-color: #d3337b;
+}
+
+.contactLinks{
+  display: none;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  font-variant: small-caps;
+  border: 1px #fbfbfb;
+  background-color: #bb7ff2;
+  border-style: solid;
+  padding-inline: 2vw;
+  position: relative;
+  top: -2.5vw;
+ 
+}
+
+.contactLinks a{
+  display: block;
+}
+
+.contactLinks a:hover{
+  text-decoration: underline;
+  text-decoration-color: #b3224b;
+}
+
+.contactDrop:hover .contactLinks{
+  display:block;
+}
+
 a{
   text-decoration: none;
 }
 
 .photo{
-  position: relative;
-  top: 150px;
-  left: -90px;
+  position: absolute;
+  top: 8vw;
+  left: 25vw;
+  width:40vw;
+  height:30vw;
 }
 
 .link{
   position: relative;
   right: -15px;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight:lighter;
+  font-variant: small-caps;
   border: 2px #fbfbfb;
   border-radius: 100px;
   border-style: double;
   padding: 7px;
 }
 
+.link:hover{
+ font-style: italic;
+  
+}
+
 .Intro{
-  font-size: 100px;
+  font-size: 8vw;
   color: #0a002c;
   text-align: left;
   font-weight: lighter;
-  position: relative;
-  top: -450px;
-  left: -380px;
+  position: absolute;
+  top: 1vw;
+  left: 8vw
 }
 
 .Intro2{
-  font-size: 150px;
+  font-size: 11vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #0a002c;
-  position: relative;
-  top: -500px;
-  left: -380px;
+  position: absolute;
+  top: 21vw;
+  left: 6vw;
 }
 
 .Sides{
   color:#0a002c;
   text-align: right;
-  position: relative;
-  top: 30px;
-  right: -400px;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 25vw;
+  right: 10vw;
 }
 
 .circle1{
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   border-radius: 300px;
   background-color: #8e41d2;
   display: inline-block;
-  position: relative;
-  top: -400px;
-  left: -80px;
+  position: absolute;
+  left: 2vw;
+
 }
 
 .circle2{
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   border-radius: 300px;
   background-color: #e33c4d;
   display: inline-block;
-  position: relative;
-  top: -400px;
-  left: -30px;
+  position: absolute;
+  left: 27vw;
 }
 
 .circle3{
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   border-radius: 300px;
   background-color: #f6b336;
   display: inline-block;
-  position: relative;
-  top: -400px;
-  right: -30px;
+  position: absolute;
+  left: 53vw;
 }
 
 .circle4{
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   border-radius: 300px;
   background-color: #3524d3;
   display: inline-block;
-  position: relative;
-  top: -400px;
-  right: -80px;
+  position: absolute;
+  left: 78vw;
 }
 
+.circle1:hover{
+  transform: scale(1.2);
+  font-style: italic;
+}
+
+.circle2:hover{
+  transform: scale(1.2);
+  font-style: italic;
+}
+
+.circle3:hover{
+  transform: scale(1.2);
+  font-style: italic;
+}
+
+.circle4:hover{
+  transform: scale(1.2);
+  font-style: italic;
+}
 
 .About{
   color:#e467a1;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bolder;
-  font-style: italic;
   position: inherit;
-  top: 80px;
+  top: 5vw;
+  left: 3vw;
 }
 
 .Projects{
   color:#f7bd87;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bolder;
-  font-style: italic;
   position: inherit;
-  top: 80px;
+  top: 5vw;
+  left: 4vw;
 }
 
 .Work{
   color:#9431cd;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bolder;
-  font-style: italic;
   position: inherit;
-  top: 80px;
+  top: 5vw;
+  left: 2vw;
 }
 
 .Extra{
   color:#e46776;
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bolder;
-  font-style: italic;
   position: inherit;
-  top: 80px;
+  top: 5vw;
+  left: 6vw;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -141,9 +247,10 @@ a{
   }
 }
 
+
 .App-header {
   background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
-  min-height: 100vh;
+  min-height: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
