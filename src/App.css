@@ -8,6 +8,31 @@
   pointer-events: none;
 }
 
+.mainBody{
+  height: 100vw;
+}
+
+.sec1{
+  font-size: 5vw;
+  font-weight: lighter;
+  text-decoration-line: underline;
+  text-decoration-color: #6c2ea6;
+  position:absolute;
+  top: 75vw;
+  left:2vw;
+}
+
+.sec1sub{
+  font-size: 1vw;
+  border: 1px #6c2ea6;
+  border-style: solid;
+  padding: 1vw;
+  position:absolute;
+  top: 87vw;
+  left:2vw;
+
+}
+
 .nav{
   position:fixed;
   top:0px;
@@ -144,14 +169,21 @@ a{
   right: 10vw;
 }
 
+.circles{
+  position: absolute;
+  top: 45vw;
+  left: 2vw;
+
+}
+
 .circle1{
   height: 20vw;
   width: 20vw;
   border-radius: 300px;
   background-color: #8e41d2;
   display: inline-block;
-  position: absolute;
-  left: 2vw;
+  position: inherit;
+  left: 0vw;
 
 }
 
@@ -161,8 +193,8 @@ a{
   border-radius: 300px;
   background-color: #e33c4d;
   display: inline-block;
-  position: absolute;
-  left: 27vw;
+  position: inherit;
+  left: 25vw;
 }
 
 .circle3{
@@ -171,8 +203,9 @@ a{
   border-radius: 300px;
   background-color: #f6b336;
   display: inline-block;
-  position: absolute;
-  left: 53vw;
+  position: inherit;
+  left: 50vw;
+  
 }
 
 .circle4{
@@ -181,8 +214,9 @@ a{
   border-radius: 300px;
   background-color: #3524d3;
   display: inline-block;
-  position: absolute;
-  left: 78vw;
+  position: inherit;
+  left: 76vw;
+ 
 }
 
 .circle1:hover{
@@ -209,7 +243,7 @@ a{
   color:#e467a1;
   font-size: 3vw;
   font-weight: bolder;
-  position: inherit;
+  position: absolute;
   top: 5vw;
   left: 3vw;
 }
@@ -250,7 +284,7 @@ a{
 
 .App-header {
   background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
-  min-height: 100vw;
+  height: 70vw;
   display: flex;
   flex-direction: column;
   align-items: center;

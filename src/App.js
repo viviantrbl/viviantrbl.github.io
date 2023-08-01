@@ -14,9 +14,10 @@ function App() {
             <h1 className="Intro">Hello, <br></br>I am</h1>
             <h1 className="Intro2">Vivian!</h1>
           </div>
-          <div>
+          <div className="circles">
+            <a href="#about"><span class="circle1"><p class="About">About Me</p></span></a>
         
-            <span class="circle1"><p class="About">About Me</p></span>
+            
             <span class="circle2"><p class="Projects">Projects</p></span>
             <span class="circle3"><p class="Work">Experience</p></span>
             <span class="circle4"><p class="Extra">Extra</p></span>
@@ -40,8 +41,12 @@ function App() {
           
         </div>
       </header>
-      <body>
-        <p>Test</p>
+      <body className="mainBody">
+        <a id="about"></a>
+        <div>
+          <p className="sec1">About Me</p>
+          <p className="sec1sub">Test</p>
+        </div>
       </body>
       
     </div>
