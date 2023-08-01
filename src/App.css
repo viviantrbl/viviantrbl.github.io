@@ -275,17 +275,10 @@ a{
   left: 6vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
 .App-header {
   background: linear-gradient(135deg, #e34974, #fc9a8d, #6c2ea6);
   height: 70vw;
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -295,6 +288,96 @@ a{
 
 .App-link {
   color: #61dafb;
+}
+
+
+@media screen and (max-width: 481px) {
+  .App-header{
+    min-height: 200vh;
+  }
+
+  .Intro{
+    font-size: 20vw;
+  }
+
+  .Intro2{
+    font-size: 25vw;
+    top: 20vh;
+  }
+
+  .photo{
+    top: 40vh;
+    left: 15vw;
+    width:70vw;
+    height:55vw;
+  }
+
+  .Sides{
+    font-size: 5vw;
+    top: 65vh;
+    left:10vw;
+    text-align: center;
+  }
+
+  .link{
+    font-size: 3vw;
+  }
+  
+  .nav{
+    height: 9vh;
+  }
+
+  .homeButton{
+    width: 9vh;
+    height: 9vh;
+  }
+  
+  .hbText{
+    font-size: 8vw;
+    left: 20vw;
+  }
+
+  .contact{
+    font-size: 5vw;
+  }
+
+  .contactLinks{
+    font-size: 5vw;
+    top: -8vw;
+  }
+
+  .circles{
+    
+    top: 100vh;
+  }
+
+  .circle1{
+    height: 20vh;
+    width: 20vh;
+    top: 80vh;
+  }
+
+  .circle2{
+    height: 20vh;
+    width: 20vh;
+    top: 80vh;
+  }
+
+  .circle3{
+    height: 10vh;
+    width: 10vh;
+  }
+
+  .circle4{
+    height: 10vh;
+    width: 10vh;
+  }
+  
+  .aboutContent{
+    position: absolute;
+    top: 100vh;
+  }
+  
 }
 
 @keyframes App-logo-spin {

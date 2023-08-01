@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <div>
+        <div className="topContent">
           <img src={pic} alt="Myself" class="photo"></img>
           <div>
             <h5 className="Sides">Want a TL;DR?<a className="link" href="https://docs.google.com/document/d/1J-Th0_ut0363uJ6hyNGbgRN3lqRsBfk8_JGX3oymimg/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> View My Resume</a></h5>
@@ -32,10 +32,10 @@ function App() {
 
           <div className="contactDrop">
             <h5 className="contact">Contact</h5>
-          <div className="contactLinks">
-            <a href="https://www.linkedin.com/in/vivian-nguyen-8ba71a19b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="mailto:viviantrbl@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-          </div>
+            <div className="contactLinks">
+              <a href="https://www.linkedin.com/in/vivian-nguyen-8ba71a19b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="mailto:viviantrbl@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            </div>
           </div>
           
           
@@ -43,9 +43,9 @@ function App() {
       </header>
       <body className="mainBody">
         <a id="about"></a>
-        <div>
+        <div className="aboutContent">
           <p className="sec1">About Me</p>
-          <p className="sec1sub">Test</p>
+          <p className="sec1sub">Test test</p>
         </div>
       </body>
       
