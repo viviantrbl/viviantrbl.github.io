@@ -293,7 +293,11 @@ a{
 
 @media screen and (max-width: 481px) {
   .App-header{
-    min-height: 200vh;
+    min-height: 135vh;
+  }
+
+  .mainBody{
+    height: 800vw;
   }
 
   .Intro{
@@ -347,36 +351,75 @@ a{
   }
 
   .circles{
-    
-    top: 100vh;
+    top: 80vh;
   }
 
   .circle1{
-    height: 20vh;
-    width: 20vh;
-    top: 80vh;
+    height: 24vh;
+    width: 24vh;
+    
+    
   }
 
   .circle2{
-    height: 20vh;
-    width: 20vh;
-    top: 80vh;
+    height: 24vh;
+    width: 24vh;
+    left: 51vw;
   }
 
   .circle3{
-    height: 10vh;
-    width: 10vh;
+    height: 24vh;
+    width: 24vh;
+    top: 25vh;
+    left: 0vw;
   }
 
   .circle4{
-    height: 10vh;
-    width: 10vh;
+    height: 24vh;
+    width: 24vh;
+    top: 25vh;
+    left: 51vw;
+  }
+
+  .About{
+    font-size: 8vw;
+    top: 10vw;
+    left: 4vw;
+  }
+
+  .Projects{
+    font-size: 8vw;
+    top: 10vw;
+    left: 8vw;
+  }
+
+  .Work{
+    font-size: 8vw;
+    top: 10vw;
+    left: 2vw;
+  }
+
+  .Extra{
+    font-size: 8vw;
+    top: 10vw;
+    left: 14vw;
   }
   
   .aboutContent{
     position: absolute;
     top: 100vh;
+    width: 100vw;
   }
+
+  .sec1{
+    font-size: 10vw;
+  }
+
+  .sec1sub{
+    font-size: 5vw;
+  }
+
+
   
 }
 
