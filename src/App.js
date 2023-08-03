@@ -1,6 +1,7 @@
 import './App.css';
 import pic from './images/IMG_4639.PNG';
 import logo from './images/IMG_4636.PNG';
+import grad from './images/IMG_1052_Original.jpg';
 
 function App() {
   return (
@@ -24,7 +25,30 @@ function App() {
 
           </div>
         </div>
-        <div className="nav">
+
+      </header>
+      <body className="mainBody">
+        <a id="about"></a>
+        <div className="aboutContent">
+          <p className="sec1">About Me</p>
+          <p className="sec1sub">My name is Vivian Nguyen and I am a graduate from The University of Texas at Dallas with a Bachelor of Science degree in Computer Science. With my AP and dual credits from high school, I was able to graduate college 1.5 years early. Graduating early was both an exciting and nerve-wrecking experience. Exciting, because I was entering a new chapter of my life and nerve-wrecking, because that new chapter was unfamiliar. But unfamiliarity allowed for more learning and discovery and that has treated me well. In addition, I was afraid of how the "real world" was going to be like. In college, I was one of the few girls in my computer science and engineering classes, and this meant that more than likely my skills were doubted. If we had to get in pairs for an assignment, I would not get picked first. Or with group projects, the girls would be in a group together since we would be the last ones left. When I do end in a group with my male classmates, they would try to take over the work or shoot down all of my ideas. And it always concerned me how the division would be like outside of college classes. Would the workplace have more diversity? Or would the division be the same? Although this intimidated me, I have always stood my ground in showing my skills and I would never let it discourage me from continuing to learn and program. But not all of my experiences were like this, I had a handful of times where I was one of the only girls in the group and I was treated equally. And I did experience this in the internship I had after I graduated and it did ease my worries. After college, I was able to explore more aspects of computer science that were not covered or covered enough in college. There are many more to come and I look forward to new experiences every day. I hope to always keep learning and exploring all that computer science has to offer.
+          <br />
+          <br />
+          With this website, I hope to not only showcase my skills, but also who I am. Computer science and programming has such a masculine representation, so I hope to make it more girly and encourage more women to pursue (or continue pursuing) computer science/engineering!
+           </p>
+
+           <span class="square1"><p><b>Education:</b> The University of Texas at Dallas, B.S. in Computer Science</p></span>
+           <span class="square2"><p><b>Skills:</b> <br/>Languages: Java, Python, C/C++, C#, JavaScript<br/>Software/Hardware: Unity, XCode, AWS, React Native/React, Github, PC Assembly, Raspberry Pi<br />Operating Systems: Windows, MacOS, iOS, Linux/Ubuntu<br/>Other: Switches and Router Configuration, Domain Server Admin </p></span>
+          
+          <div class="gradPic">
+            <img src={grad} alt="Graduation cap" className="photo2"></img>
+            <p>Photo of my decorated graduation cap</p>
+          </div>
+          
+          
+        </div>
+      </body>
+      <div className="nav">
           <div className="hb">
            <a href="#top"> <img src={logo} alt="Logo" className="homeButton"></img> </a>
             <p className="hbText">Home</p>
@@ -40,15 +64,6 @@ function App() {
           
           
         </div>
-      </header>
-      <body className="mainBody">
-        <a id="about"></a>
-        <div className="aboutContent">
-          <p className="sec1">About Me</p>
-          <p className="sec1sub">Test test</p>
-        </div>
-      </body>
-      
     </div>
   );
 }

@@ -24,6 +24,8 @@
 
 .sec1sub{
   font-size: 1vw;
+  text-align: left;
+  width: 50vw;
   border: 1px #6c2ea6;
   border-style: solid;
   padding: 1vw;
@@ -122,6 +124,19 @@ a{
   left: 25vw;
   width:40vw;
   height:30vw;
+}
+
+.photo2{
+  width: 35vw;
+  height: auto;
+}
+
+.gradPic{
+  position: absolute;
+  font-size: 1vw;
+  top: 105vw; 
+  right: 5vw;
+  align-content: center;
 }
 
 .link{
@@ -239,6 +254,37 @@ a{
   font-style: italic;
 }
 
+.square1{
+  width: 40vw;
+  height: auto;
+  font-size: 1vw;
+  color:#ddbdfb;
+  border-radius: 0vw;
+  background-color: #4f217b;
+  position: absolute;
+  display: inline-block;
+  padding: 2vw;
+  top: 80vw;
+  left: 55vw;
+  
+}
+
+.square2{
+  width: 40vw;
+  height: auto;
+  font-size: 1vw;
+  color:#ddbdfb;
+  border-radius: 0vw;
+  background-color: #4f217b;
+  position: absolute;
+  display: inline-block;
+  padding: 2vw;
+  text-align: left;
+  top: 90vw;
+  left: 55vw;
+  
+}
+
 .About{
   color:#e467a1;
   font-size: 3vw;
@@ -246,6 +292,12 @@ a{
   position: absolute;
   top: 5vw;
   left: 3vw;
+}
+
+.aboutContent{
+  background-color: #fdf1ff;
+  height: 70%;
+
 }
 
 .Projects{
