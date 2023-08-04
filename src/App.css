@@ -41,6 +41,7 @@
   background-color: #a161fb49;
   width: 100%;
   height: 4vw;
+  color:#fde6f8
 }
 
 .homeButton{
@@ -459,16 +460,46 @@ a{
   
   .aboutContent{
     position: absolute;
-    top: 100vh;
+    top: 135vh;
     width: 100vw;
+    height: 300%;
   }
 
   .sec1{
     font-size: 10vw;
+    top: 15vw;
   }
 
   .sec1sub{
     font-size: 5vw;
+    width: 93%;
+    top: 35vw;
+  }
+
+  .square1{
+    width: 92%;
+    font-size: 3vw;
+    top: 200vh;
+    left: 2vw;
+    
+  }
+  
+  .square2{
+    width: 92%;
+    font-size: 3vw;
+    top: 210vh;
+    left: 2vw;
+    
+  }
+
+  .photo2{
+    width: 80%;
+  }
+  
+  .gradPic{
+    font-size: 3vw;
+    top: 230vh; 
+    right: 2vw;
   }
 
 
