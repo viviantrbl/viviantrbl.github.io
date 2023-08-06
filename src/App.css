@@ -35,6 +35,20 @@
 
 }
 
+.sec2{
+  font-size: 7vw;
+  font-weight: bolder;
+  color: #f9d844;
+  position: absolute;
+  top: 140vw;
+  left: 35vw;
+  border: 1px #fbe895;
+  border-style: solid;
+  padding: 2vw;
+  
+ 
+}
+
 .nav{
   position:fixed;
   top:0px;
@@ -130,6 +144,28 @@ a{
 .photo2{
   width: 35vw;
   height: auto;
+}
+
+.photo3{
+  width:20vw;
+  height:auto;
+}
+
+.photo4{
+  width:20vw;
+  height:auto;
+}
+
+.ppt{
+  position: absolute;
+  top: 165vw;
+  left: 10vw;
+}
+
+.game{
+  position: absolute;
+  top: 185vw;
+  right: 10vw;
 }
 
 .gradPic{
@@ -255,6 +291,12 @@ a{
   font-style: italic;
 }
 
+.projLink{
+  position: absolute;
+  left: 0vw;
+  top: 0vh;
+}
+
 .square1{
   width: 40vw;
   height: auto;
@@ -298,6 +340,12 @@ a{
 .aboutContent{
   background-color: #fdf1ff;
   height: 70%;
+
+}
+
+.projContent{
+  background-color: #f9647c;
+  height: 100%;
 
 }
 

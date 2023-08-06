@@ -2,6 +2,8 @@ import './App.css';
 import pic from './images/IMG_4639.PNG';
 import logo from './images/IMG_4636.PNG';
 import grad from './images/IMG_1052_Original.jpg';
+import fl from './images/FLIMG.png';
+import bl from './images/BTCIMG.png';
 
 function App() {
   return (
@@ -17,9 +19,7 @@ function App() {
           </div>
           <div className="circles">
             <a href="#about"><span class="circle1"><p class="About">About Me</p></span></a>
-        
-            
-            <span class="circle2"><p class="Projects">Projects</p></span>
+            <a href="#project" className="projLink"><span class="circle2"><p class="Projects">Projects</p></span></a>
             <span class="circle3"><p class="Work">Experience</p></span>
             <span class="circle4"><p class="Extra">Extra</p></span>
 
@@ -37,7 +37,7 @@ function App() {
           With this website, I hope to not only showcase my skills, but also who I am. As a person, I would say my image is very "girly" but computer science and programming has such a masculine reputation, so I took it upon myself to make things here cute and colorful (like me).
            </p>
 
-           <span class="square1"><p><b>Education:</b> The University of Texas at Dallas, B.S. in Computer Science</p></span>
+           <span class="square1"><p><b>Education:</b> The University of Texas at Dallas, B.S. in Computer Science, Magna Cum Laude</p></span>
            <span class="square2"><p><b>Skills:</b> <br/>Languages: Java, Python, C/C++, C#, JavaScript<br/>Software/Hardware: Unity, XCode, AWS, React Native/React, Github, PC Assembly, Raspberry Pi<br />Operating Systems: Windows, MacOS, iOS, Linux/Ubuntu<br/>Other: Switches and Router Configuration, Domain Server Admin </p></span>
           
           <div class="gradPic">
@@ -45,8 +45,20 @@ function App() {
             <p>Photo of my decorated graduation cap</p>
           </div>
           
-          
         </div>
+
+        <a id="project"></a>
+        <div className="projContent">
+          <p className="sec2">Projects</p>
+          <div class="ppt">
+            <a href="https://docs.google.com/presentation/d/1Gc5mJxiIpB8yaPgE3wg3ZJMdjir_UiX-BunflmMPC6w/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> <img src={fl} alt="Federated Learning PPT" className="photo3"></img></a>
+          </div>
+          <div class="game">
+           <a href="https://novan01.itch.io/bushland-the-collector" target="_blank" rel="noopener noreferrer"><img src={bl} alt="Bushland the Collector start page" className="photo4"></img></a> 
+          </div>
+        
+        </div>
+
       </body>
       <div className="nav">
           <div className="hb">
