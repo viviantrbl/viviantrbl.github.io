@@ -45,8 +45,66 @@
   border: 1px #fbe895;
   border-style: solid;
   padding: 2vw;
-  
- 
+}
+
+.sec2sub{
+  position: relative;
+  top: -12vw;
+  font-size: 2vw;
+}
+
+.sec2sub2{
+  font-size:1vw;
+
+}
+
+.sec2gameSub{
+  width: 5vw;
+  text-align: left;
+  position: relative;
+  top: -12vw;
+  font-size: 2vw;
+}
+
+.sec2gameSub2{
+  font-size: 1vw;
+}
+
+.sec2COsub{
+  position: relative;
+  top: -15vw;
+  font-size: 2vw;
+}
+
+.sec2COsub2{
+  font-size: 1vw;
+}
+
+.sec2VRsub{
+  width: 5vw;
+  text-align: left;
+  position: relative;
+  top: -15vw;
+  font-size: 2vw;
+}
+
+.sec2VRsub2{
+  font-size: 1vw;
+}
+
+.caption{
+  position: relative;
+  top: -6vw;
+  left: -15vw;
+  font-size:1vw;
+}
+
+.caption2{
+  position: relative;
+  top: -6vw;
+  right: -33vw;
+  font-size:1vw;
+  width: 15vw;
 }
 
 .nav{
@@ -147,24 +205,56 @@ a{
 }
 
 .photo3{
+  position: relative;
+  left: -15vw;
   width:20vw;
   height:auto;
 }
 
 .photo4{
+  position: relative;
+  right: -15vw;
   width:20vw;
   height:auto;
 }
 
 .ppt{
+  border: 2px #f6b336;
+  border-style: solid;
+  width: 50vw;
+  padding: 1vw;
   position: absolute;
   top: 165vw;
   left: 10vw;
 }
 
 .game{
+  border: 2px #f6b336;
+  border-style: solid;
+  width: 50vw;
+  padding: 1vw;
   position: absolute;
-  top: 185vw;
+  top: 195vw;
+  right: 10vw;
+}
+
+.cap{
+  border: 2px #f6b336;
+  border-style: solid;
+  width: 50vw;
+  padding: 1vw;
+  position: absolute;
+  top: 225vw;
+  left: 10vw;
+}
+
+.vr{
+  border: 2px #f6b336;
+  border-style: solid;
+  width: 50vw;
+  padding: 1vw;
+  position: absolute;
+  top: 255vw;
   right: 10vw;
 }
 
@@ -328,6 +418,34 @@ a{
   
 }
 
+.square3{
+  font-size: 1vw;
+  width:15vw;
+  height: 15vw;
+  color:#340814;
+  border-radius: 0vw;
+  border-style: solid;
+  display:inline-block;
+  position: relative;
+  top: 4vw;
+  left: -17vw;
+
+}
+
+.square4{
+  font-size: 1vw;
+  width:15vw;
+  height: 15vw;
+  color:#340814;
+  border-radius: 0vw;
+  border-style: solid;
+  display:inline-block;
+  position: relative;
+  top: 4vw;
+  right: -17vw;
+
+}
+
 .About{
   color:#e467a1;
   font-size: 3vw;
@@ -345,7 +463,7 @@ a{
 
 .projContent{
   background-color: #f9647c;
-  height: 100%;
+  height: 200%;
 
 }
 

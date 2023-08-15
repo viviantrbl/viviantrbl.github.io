@@ -52,9 +52,26 @@ function App() {
           <p className="sec2">Projects</p>
           <div class="ppt">
             <a href="https://docs.google.com/presentation/d/1Gc5mJxiIpB8yaPgE3wg3ZJMdjir_UiX-BunflmMPC6w/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> <img src={fl} alt="Federated Learning PPT" className="photo3"></img></a>
+            <p class="sec2sub"><b>Overview:</b></p>
+            <p class="caption">Click on image to view presentation</p>
+            <p class="sec2sub2"><b>Key Words:</b></p>
           </div>
           <div class="game">
            <a href="https://novan01.itch.io/bushland-the-collector" target="_blank" rel="noopener noreferrer"><img src={bl} alt="Bushland the Collector start page" className="photo4"></img></a> 
+           <p class="sec2gameSub"><b>Overview:</b></p>
+           <p class="caption2">Click on image to view game</p>
+           <p class="sec2gameSub2"><b>Key Words:</b></p>
+          </div>
+          <div class="cap">
+            <span class="square3"><h1>Captial One: Vulnerability Warriors</h1></span>
+            <p class="sec2COsub"><b>Overview:</b></p>
+            <p class="sec2COsub2"><b>Key Words:</b></p>
+          </div>
+          <div class="vr">
+            <span class="square4"><h1>VR Simulation for the Sachse Fire Department</h1></span>
+            <p class="sec2VRsub"><b>Overview:</b></p>
+            <p class="sec2VRsub2"><b>Key Words:</b></p>
+
           </div>
         
         </div>
