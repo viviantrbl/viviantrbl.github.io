@@ -668,6 +668,58 @@ a{
     right: 2vw;
   }
 
+  .projContent{
+    position: absolute;
+    top: 335vh;
+    width: 100vw;
+    height: 300%;
+  
+  }
+
+  .sec2sub{
+    font-size: 5vw;
+    width: 93%;
+    top: 35vw;
+  }
+  
+  .sec2sub2{
+    font-size:1vw;
+  
+  }
+  
+  .sec2gameSub{
+    width: 5vw;
+    text-align: left;
+    position: relative;
+    top: -12vw;
+    font-size: 2vw;
+  }
+  
+  .sec2gameSub2{
+    font-size: 1vw;
+  }
+  
+  .sec2COsub{
+    position: relative;
+    top: -15vw;
+    font-size: 2vw;
+  }
+  
+  .sec2COsub2{
+    font-size: 1vw;
+  }
+  
+  .sec2VRsub{
+    width: 5vw;
+    text-align: left;
+    position: relative;
+    top: -15vw;
+    font-size: 2vw;
+  }
+  
+  .sec2VRsub2{
+    font-size: 1vw;
+  }
 
   
 }
