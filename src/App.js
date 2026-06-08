@@ -13,15 +13,14 @@ function App() {
         <div className="topContent">
           <img src={pic} alt="Myself" class="photo"></img>
           <div>
-            <h5 className="Sides">Want a TL;DR?<a className="link" href="https://docs.google.com/document/d/1J-Th0_ut0363uJ6hyNGbgRN3lqRsBfk8_JGX3oymimg/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> View My Resume</a></h5>
             <h1 className="Intro">Hello, <br></br>I am</h1>
             <h1 className="Intro2">Vivian!</h1>
           </div>
           <div className="circles">
             <a href="#about"><span class="circle1"><p class="About">About Me</p></span></a>
-            <a href="#project" className="projLink"><span class="circle2"><p class="Projects">Projects</p></span></a>
-            <span class="circle3"><p class="Work">Experience</p></span>
-            <span class="circle4"><p class="Extra">Extra</p></span>
+            <a href="#project" className="projLink"><span class="circle2"><p class="Jewelry">Jewelry</p></span></a>
+            <span class="circle3"><p class="Paintings">Paintings</p></span>
+            <span class="circle4"><p class="Extra">Extras</p></span>
 
           </div>
         </div>

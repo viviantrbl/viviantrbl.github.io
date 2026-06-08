@@ -466,7 +466,7 @@ a{
 
 }
 
-.Projects{
+.Jewelry{
   color:#f7bd87;
   font-size: 3vw;
   font-weight: bolder;
@@ -475,13 +475,13 @@ a{
   left: 4vw;
 }
 
-.Work{
+.Paintings{
   color:#9431cd;
   font-size: 3vw;
   font-weight: bolder;
   position: inherit;
   top: 5vw;
-  left: 2vw;
+  left: 4vw;
 }
 
 .Extra{
@@ -605,16 +605,16 @@ a{
     left: 4vw;
   }
 
-  .Projects{
+  .Jewelry{
     font-size: 8vw;
     top: 10vw;
     left: 8vw;
   }
 
-  .Work{
+  .Paintings{
     font-size: 8vw;
     top: 10vw;
-    left: 2vw;
+    left: 8vw;
   }
 
   .Extra{
