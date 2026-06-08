@@ -86,7 +86,7 @@ function App() {
           <div className="contactDrop">
             <h5 className="contact">Contact</h5>
             <div className="contactLinks">
-              <a href="https://www.linkedin.com/in/vivian-nguyen-8ba71a19b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/viviantrbl/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
               <a href="mailto:viviantrbl@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
             </div>
           </div>
