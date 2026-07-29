@@ -23,9 +23,9 @@
 }
 
 .sec1sub{
-  font-size: 1vw;
+  font-size: 1.5vw;
   text-align: left;
-  width: 50vw;
+  width: 45vw;
   border: 1px #6c2ea6;
   border-style: solid;
   padding: 1vw;
@@ -614,20 +614,20 @@ a{
   .Paintings{
     font-size: 8vw;
     top: 10vw;
-    left: 8vw;
+    left: 6vw;
   }
 
   .Extra{
     font-size: 8vw;
     top: 10vw;
-    left: 14vw;
+    left: 12vw;
   }
   
   .aboutContent{
     position: absolute;
     top: 135vh;
     width: 100vw;
-    height: 300%;
+    height: 240%;
   }
 
   .sec1{
@@ -644,7 +644,7 @@ a{
   .square1{
     width: 92%;
     font-size: 3vw;
-    top: 200vh;
+    top: 140vh;
     left: 2vw;
     
   }
@@ -652,7 +652,7 @@ a{
   .square2{
     width: 92%;
     font-size: 3vw;
-    top: 210vh;
+    top: 150vh;
     left: 2vw;
     
   }
@@ -663,13 +663,13 @@ a{
   
   .gradPic{
     font-size: 3vw;
-    top: 230vh; 
+    top: 170vh; 
     right: 2vw;
   }
 
   .projContent{
     position: absolute;
-    top: 400vh;
+    top: 350vh;
     width: 100vw;
     height: 300%;
   

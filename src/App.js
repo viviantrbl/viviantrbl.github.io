@@ -4,6 +4,7 @@ import logo from './images/IMG_4636.PNG';
 import grad from './images/IMG_1052_Original.jpg';
 import fl from './images/FLIMG.png';
 import bl from './images/BTCIMG.png';
+import * as Constants from './text/constants.js'
 
 function App() {
   return (
@@ -30,12 +31,15 @@ function App() {
         <a id="about"></a>
         <div className="aboutContent">
           <p className="sec1">About Me</p>
-          <p className="sec1sub">My name is Vivian Nguyen and I am a graduate from The University of Texas at Dallas with a Bachelor of Science degree in Computer Science. With my AP and dual credits from high school, I was able to graduate college 1.5 years early. Graduating early was both an exciting and nerve-wrecking experience. Exciting, because I was entering a new chapter of my life and nerve-wrecking, because that new chapter was unfamiliar. But unfamiliarity allowed for more learning and discovery and that has treated me well. In addition, I was afraid of how the "real world" was going to be like. In college, I was one of the few girls in my computer science and engineering classes, and this meant that more than likely my skills were doubted. If we had to get in pairs for an assignment, I would not get picked first. Or with group projects, the girls would be in a group together since we would be the last ones left. When I do end in a group with my male classmates, they would try to take over the work or shoot down all of my ideas. And it always concerned me how the division would be like outside of college classes. Would the workplace have more diversity? Or would the division be the same? Although this intimidated me, I have always stood my ground in showing my skills and I would never let it discourage me from continuing to learn and program. But not all of my experiences were like this, I had a handful of times where I was one of the only girls in the group and I was treated equally. And I did experience this in the internship I had after I graduated and it did ease my worries. After college, I was able to explore more aspects of computer science that were not covered or covered enough in college. There are many more to come and I look forward to new experiences every day. I hope to always keep learning and exploring all that computer science has to offer.
-          <br />
-          <br />
-          With this website, I hope to not only showcase my skills, but also who I am. As a person, I would say my image is very "girly" but computer science and programming has such a masculine reputation, so I took it upon myself to make things here cute and colorful (like me).
+          <p className="sec1sub">
+            {Constants.ABOUT_ME_TEXT1}
+            <br></br>
+            <br></br>
+            {Constants.ABOUT_ME_TEXT2}
+            <br></br>
+            <br></br>
+            {Constants.ABOUT_ME_TEXT3}
            </p>
-
            <span class="square1"><p><b>Education:</b> The University of Texas at Dallas, B.S. in Computer Science, Magna Cum Laude</p></span>
            <span class="square2"><p><b>Skills:</b> <br/>Languages: Java, Python, C/C++, C#, JavaScript<br/>Software/Hardware: Unity, XCode, AWS, React Native/React, Github, PC Assembly, Raspberry Pi<br />Operating Systems: Windows, MacOS, iOS, Linux/Ubuntu<br/>Other: Switches and Router Configuration, Domain Server Admin </p></span>
           
